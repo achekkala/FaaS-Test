@@ -1,0 +1,41 @@
+{
+  "name": "config_function",
+  "config": [
+    {
+      "fieldType": "textbox",
+      "config_path": "config.functionconfiguration.input_string1",
+      "data_type": "string",
+      "description": "",
+      "hidden": false,
+      "multi_select": false,
+      "name": "some_string1_representing_which_DB",
+      "op_type": "continuous",
+      "ui_component": "",
+      "value": null,
+      "_XpmsObjectMixin__api_version": "11.5",
+      "_XpmsObjectMixin__type": "StringConfiguration"
+    },
+    {
+      "fieldType": "dropdown",
+      "config_path": "config.functionconfiguration.train_test",
+      "data_type": "string",
+      "description": null,
+      "display_key": null,
+      "hidden": false,
+      "is_option_object": false,
+      "multi_select": false,
+      "name": "Execution Type",
+      "op_type": "categorical",
+      "options": [
+        "Train",
+        "Test"
+      ],
+      "ui_component": "",
+      "value": "all",
+      "value_key": null,
+      "_XpmsObjectMixin__api_version": "11.5",
+      "_XpmsObjectMixin__type": "CategoricalListConfiguration"
+    }
+
+  ]
+}
