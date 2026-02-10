@@ -1,31 +1,6 @@
 {
   "files_list": [
-    {
-      "function_name": "convert_payload",
-      "function_file_path": "convert_payload.py"
-    },
-    {
-      "function_name": "add_result",
-      "function_file_path": "add_result.py"
-    },
-    {
-      "function_name": "add_num",
-      "function_file_path": "add_num.py"
-    },
-    {
-      "function_name": "preprocess",
-      "function_file_path": "preprocess.py",
-      "function_config_path": "preprocess.json"
-    },
-    {
-      "function_name": "preprocessing",
-      "function_file_path": "preprocessing.py",
-      "function_config_path": "preprocessing.json"
-    },
-    {
-      "function_name": "postprocess",
-      "function_file_path": "postprocess.py"
-    },
+    
     {
       "function_name": "config_function",
       "function_file_path": "config_function.py",
