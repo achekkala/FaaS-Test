@@ -37,8 +37,7 @@ def config_function(config, **inp_obj):
             features_dataset, urn = read_data_from_minio(solution_id + "/data/Android_Malware.csv")
         elif config["train_test"] == "Test":
             features_dataset, urn = read_data_from_minio(solution_id + "/data/Android_Malware_test.csv")
-        return {
-            "dataset": {"data_format": "csv", "value": urn}
+      
 
         }
     except Exception as e:
