@@ -3,7 +3,7 @@ import pandas as pd
 import json
 from xpms_file_storage.file_handler import XpmsResource, LocalResource
 from xpms_helper.executions.execution_variables import ExecutionVariables
-from xpms_storage.db_handler import DBProvider
+
 
 
 def read_data_from_minio(minio_file_path, file_type=None):
