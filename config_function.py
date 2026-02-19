@@ -15,7 +15,7 @@ def read_data_from_minio(minio_file_path, file_type=None):
         with open(lcl_res_path) as file_obj:
             data = json.load(file_obj)
     else:
-        data = pd.read_csv(lcl_res_path)
+        #data = pd.read_csv(lcl_res_path)
     return data,minio_res.urn
 
 
